@@ -24,3 +24,32 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* Solution */
+
+body {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 50px;
+}
+
+.container {
+  display: flex;
+  gap: 75px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  max-width: 200px;
+}
+
+.text {
+  text-align: center;
+}
